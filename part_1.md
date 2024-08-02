@@ -37,7 +37,7 @@
 - 조건문
     - <code>x = if y == z then 1 else 2</code>
     - 값을 반환해야만 하므로 else는 생략될 수 없다.
-    - 비교연산에서 <code>!=</code> 대신 <code>=</code> 를 사용한다.
+    - 비교연산에서 <code>!=</code> 대신 <code>/=</code> 를 사용한다.
 - Local Definitions
     - <code>let ... in</code> 구문과 <code>where</code> 구문으로 로컬 정의를 할 수 있다.
     - <code>r = let pi = 3.1415926 \n rsquare = r * r \n in pi * rsquare</code>
